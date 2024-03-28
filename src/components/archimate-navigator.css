@@ -1,0 +1,78 @@
+.archimate-row {
+  display: flex;
+}
+
+.archimate-view-nav {
+  background: #f5f5f5;
+  flex: 0 0 385px;
+  height: 98vh;
+  margin-top: 0;
+  overflow: scroll;
+  padding-top: 9px;
+  padding: 9px 15px;
+}
+
+.archimate-organization-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.archimate-organization-list li {
+  padding-left: 0.5em;
+}
+
+.archimate-documentation-well {
+  margin: 0 0.5em 1.5em 0.5em;
+  padding: 0.5em 1em;
+}
+.archimate-svg-container {
+  background: white;
+  height: 100%;
+  margin: 0;
+  overflow: scroll;
+  padding: 0.5em;
+  position: relative;
+  width: 100%;
+}
+
+.archimate-diagram-view {
+  background: white;
+  height: 98vh;
+  padding: 0;
+  flex: 1 1 auto;
+}
+
+.archimate-zoombar {
+  opacity: 0.4;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.archimate-zoombar:hover {
+  opacity: 1;
+}
+
+/* Reset HTML elements used in SVG ArchiMate diagrams to prevent site
+   styles from leaking into the SVG */
+
+svg p {
+  line-height: normal;
+  width: auto;
+}
+
+svg table {
+  border: 0;
+  margin: 0;
+  max-width: none;
+  width: auto;
+}
+
+table .checkbox {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+table .checkbox input {
+  margin-top: 2px;
+}
